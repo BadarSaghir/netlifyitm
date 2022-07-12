@@ -1,0 +1,13 @@
+{
+  "include": ["src/*"],
+  "compilerOptions": {
+    "target": "es5",
+    "jsx": "react",
+    "lib": ["esnext", "dom"],
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": false,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "resolveJsonModule": true
+  }
+}

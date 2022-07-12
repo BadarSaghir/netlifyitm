@@ -1,0 +1,201 @@
+{
+  "pages": [
+    {
+      "content": "About page body Magnus Chase has always been a troubled kid. Since his mother's mysterious death, he's lived alone on the streets of Boston, surviving by his wits, keeping one step ahead of the police and the truant officers.\\\n\\\nOne day, he's tracked down by an uncle he barely knows—a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god.\\\n\\\nThe Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years.\\\n\\\nWhen an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision.\\\n\\\nSometimes, the only way to start a new life is to die . . .Magnus Chase has always been a troubled kid. Since his mother's mysterious death, he's lived alone on the streets of Boston, surviving by his wits, keeping one step ahead of the police and the truant officers.\\\n\\\nOne day, he's tracked down by an uncle he barely knows—a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god.\\\n\\\nThe Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years.\\\n\\\nWhen an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision.\\\n\\\nSometimes, the only way to start a new life is to die . . .",
+      "isEmpty": false,
+      "excerpt": "",
+      "featuredImage": "/images/uploads/21.jpg",
+      "title": "inside",
+      "name": "about",
+      "body": "About page body Magnus Chase has always been a troubled kid. Since his mother's mysterious death, he's lived alone on the streets of Boston, surviving by his wits, keeping one step ahead of the police and the truant officers.\\\n\\\nOne day, he's tracked down by an uncle he barely knows—a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god.\\\n\\\nThe Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years.\\\n\\\nWhen an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision.\\\n\\\nSometimes, the only way to start a new life is to die . . .Magnus Chase has always been a troubled kid. Since his mother's mysterious death, he's lived alone on the streets of Boston, surviving by his wits, keeping one step ahead of the police and the truant officers.\\\n\\\nOne day, he's tracked down by an uncle he barely knows—a man his mother claimed was dangerous. Uncle Randolph tells him an impossible secret: Magnus is the son of a Norse god.\\\n\\\nThe Viking myths are true. The gods of Asgard are preparing for war. Trolls, giants and worse monsters are stirring for doomsday. To prevent Ragnarok, Magnus must search the Nine Worlds for a weapon that has been lost for thousands of years.\\\n\\\nWhen an attack by fire giants forces him to choose between his own safety and the lives of hundreds of innocents, Magnus makes a fatal decision.\\\n\\\nSometimes, the only way to start a new life is to die . . ."
+    },
+    {
+      "content": "",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Blog",
+      "featuredImage": "/images/uploads/ng-32703.jpg",
+      "name": "blog",
+      "body": ""
+    },
+    {
+      "content": "Inside The Mafia Book Collection",
+      "isEmpty": false,
+      "excerpt": "",
+      "featuredImage": "/images/uploads/screen-shot-2020-08-16-at-4.21.18-pm.jpg",
+      "title": "Inside The Mafia",
+      "subtitle": "Wriiten By: ",
+      "name": "books",
+      "body": "Inside The Mafia Book Collection"
+    },
+    {
+      "content": "",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Common",
+      "location": "Insidethemafia.Net, Demo Store USA 345-659",
+      "phone": "+1 77 241 1953",
+      "email": "insidethemafia.com",
+      "fax": "+1 77 241 1953",
+      "facebookURL": "https://www.facebook.com/PariganakaLipi",
+      "twitterURL": "https://www.facebook.com/PariganakaLipi",
+      "instagramURL": "https://www.facebook.com/PariganakaLipi",
+      "name": "common",
+      "body": ""
+    },
+    {
+      "content": "\n# Example contact form\n\nThis form is setup to use Netlify's form handling:\n\n* the form action is set to the current absolute url: `action: '/contact/'`\n* a name attribute is sent with the form's data `'form-name': 'Contact'`\n* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`\n\nFind out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).\n",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Contact us",
+      "subtitle": "",
+      "featuredImage": "/images/uploads/mark-chang-74-3.jpg",
+      "address": "404 James St, Burleigh Heads QLD 4220",
+      "phone": "0987 123 456",
+      "email": "example@example.com",
+      "name": "contact",
+      "body": "\n# Example contact form\n\nThis form is setup to use Netlify's form handling:\n\n* the form action is set to the current absolute url: `action: '/contact/'`\n* a name attribute is sent with the form's data `'form-name': 'Contact'`\n* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`\n\nFind out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).\n"
+    },
+    {
+      "content": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Footer",
+      "name": "footer",
+      "body": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n"
+    },
+    {
+      "content": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Header",
+      "phone": "+1 77 241 1953",
+      "name": "header",
+      "body": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n"
+    },
+    {
+      "content": "",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Home ",
+      "sliderImages": [
+        "/images/uploads/slider_1.jpg",
+        "/images/uploads/slider_2.jpg"
+      ],
+      "sliderTitle1": "Inside the Mafia",
+      "slidersub1": "Hey I hope you enjoy your visit",
+      "sliderTitle2": "Second Title Inside",
+      "slidersub2": "Sub Text Two Inside",
+      "subBanner1": "/images/uploads/slider_1.jpg",
+      "subBanner2": "/images/uploads/slider_2.jpg",
+      "subBannerTitle1": "Sub1 Mens",
+      "subBannersub1": "Sub1 ",
+      "subBannerTitle2": "Sub2  ",
+      "subBannersub2": "Sub Sub Text Two Inside",
+      "paralaxImage": "/images/uploads/paralax.jpg",
+      "paralaxTitle": "Inside The Mafia",
+      "paralaxsub1": "International fashion at it's best ",
+      "paralaxsub2": "International Fashion",
+      "name": "home",
+      "body": ""
+    },
+    {
+      "content": "Test Shop page content Inside\n\n**Inside**",
+      "isEmpty": false,
+      "excerpt": "",
+      "featuredImage": "/images/uploads/21.jpg",
+      "title": "INTERNATIONAL FASHIONS",
+      "subtitle": "Shop page title",
+      "name": "shop",
+      "body": "Test Shop page content Inside\n\n**Inside**"
+    }
+  ],
+  "postCategories": [
+    {
+      "content": "\n",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "News",
+      "name": "news",
+      "body": "\n"
+    },
+    {
+      "content": "\n",
+      "isEmpty": false,
+      "excerpt": "",
+      "title": "Updates",
+      "meta": {
+        "description": "Desc",
+        "title": "Test Updates Title"
+      },
+      "name": "updates",
+      "body": "\n"
+    }
+  ],
+  "posts": [
+    {
+      "content": "\nThis is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.\n\nBe careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.\n",
+      "isEmpty": false,
+      "excerpt": "This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.",
+      "title": "Post Three",
+      "status": "Published",
+      "date": "2018-05-25",
+      "postFeaturedImage": "/images/uploads/isabella juskova.jpg",
+      "name": "2018-05-25-testing-1-8-2",
+      "body": "\nThis is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language.\n\nBe careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website. This paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.\n"
+    },
+    {
+      "content": "\nParagraphs are separated by a blank line.\n\nThe second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.\n\n### Unordered lists:\n\n* this one\n* that one\n* the other one\n\n### Ordered lists:\n\n1.  first item\n1.  second item\n1.  third item\n\n> Block quotes are written like so.\n>\n> They can span multiple paragraphs,\n> if you like.\n\n## Heading 2\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n",
+      "isEmpty": false,
+      "excerpt": "Etiam ac quam eget lectus venenatis ullamcorper sit amet non arcu. Nullam interdum arcu vitae augue pulvinar sodales. Sed non dui diam. Quisque lectus est, lobortis ac efficitur vitae, posuere a mauris. Phasellus ac dui pellentesque, lacinia risus ut, imperdiet eros.",
+      "title": "Hello World!",
+      "status": "Featured / Published",
+      "date": "2018-03-27",
+      "postFeaturedImage": "/images/uploads/tim-marshall-155597.jpg",
+      "categories": [
+        {
+          "category": "News"
+        }
+      ],
+      "meta": {
+        "canonicalLink": "",
+        "description": "",
+        "noindex": false,
+        "title": ""
+      },
+      "name": "hello-world",
+      "body": "\nParagraphs are separated by a blank line.\n\nThe second paragraph. This is placeholder text that our web designers put here to make sure words appear properly on your website. _Italic_, **bold**, and `monospace`.\n\n### Unordered lists:\n\n* this one\n* that one\n* the other one\n\n### Ordered lists:\n\n1.  first item\n1.  second item\n1.  third item\n\n> Block quotes are written like so.\n>\n> They can span multiple paragraphs,\n> if you like.\n\n## Heading 2\n\n# Heading 1\n\n## Heading 2\n\n### Heading 3\n\n#### Heading 4\n\n##### Heading 5\n\n###### Heading 6\n"
+    },
+    {
+      "content": "This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.\n\nThis paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.\n",
+      "isEmpty": false,
+      "excerpt": "This is an excerpt of Post Two",
+      "title": "Post Two",
+      "status": "Published",
+      "date": "2018-03-28",
+      "postFeaturedImage": "/images/uploads/vyouw5byhlc.jpeg",
+      "categories": [
+        {
+          "category": "Updates"
+        }
+      ],
+      "name": "post-two",
+      "body": "This is placeholder text that our web designers put here to make sure words appear properly on your website. This text is going to be replaced once the website is completed. You are currently reading text that is written in English, not any other language. Be careful not to waste too much time reading placeholder text! This text isn’t going to remain here because it doesn't pertain to the website.\n\nThis paragraph has been copied from a program that automatically generates paragraphs like this. It is useful for web designers to use placeholder text so they can easily see what different fonts look like on a realistic paragraph.\n"
+    }
+  ],
+  "settings": [
+    {
+      "siteTitle": "Netlify CMS + React Starter",
+      "siteUrl": "https://netlify-cms-react-starter.netlify.com",
+      "siteDescription": "A starter project for creating lightning-fast, offline-first websites with Netlify CMS and React.",
+      "socialMediaCard": {
+        "image": "/images/uploads/card-og.png",
+        "twitterCreatorAccount": "@Jinksi",
+        "twitterSiteAccount": ""
+      },
+      "headerScripts": "<!-- Add your analytics scripts / verification meta here -->",
+      "enableServiceWorker": false,
+      "name": "global"
+    }
+  ]
+}

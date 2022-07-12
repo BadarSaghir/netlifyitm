@@ -1,0 +1,92 @@
+backend:
+  name: gitlab
+  repo: insidethemafia/netlifyitm
+media_folder: "public/images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections: # A list of collections the CMS should be able to edit
+  - name: "pages"
+    label: "Page"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: true
+    files:
+      - file: "content/pages/home.md"
+        label: "Home Page"
+        name: "home-page"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - label: "Slider"
+            name: "sliderImages"
+            widget: "list"
+            summary: "{{fields.image}}"
+            field: { label: Image, name: image, widget: image }
+          - { label: Slider Title1, name: sliderTitle1, widget: string }
+          - { label: Slider SubText1, name: slidersub1, widget: string }
+          - { label: Slider Title2, name: sliderTitle2, widget: string }
+          - { label: slider SubText2, name: slidersub2, widget: string }
+          - { label: SubBanner 1, name: subBanner1, widget: image }
+          - { label: SubBanner 2, name: subBanner2, widget: image }
+          - { label: SubBanner Title1, name: subBannerTitle1, widget: string }
+          - { label: SubBanner SubText1, name: subBannersub1, widget: string }
+          - { label: SubBanner Title2, name: subBannerTitle2, widget: string }
+          - { label: SubBanner SubText2, name: subBannersub2, widget: string }
+          - { label: Paralax Image, name: paralaxImage, widget: image }
+          - { label: Paralax Title, name: paralaxTitle, widget: string }
+          - { label: Paralax SubText1, name: paralaxsub1, widget: string }
+          - { label: Paralax SubText2, name: paralaxsub2, widget: string }
+
+      - file: "content/pages/shop.md"
+        label: "Shop Page"
+        name: "shop-page"
+        fields:
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: "content/pages/books.md"
+        label: "Books Page"
+        name: "books-page"
+        fields:
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: "content/pages/itunes.md"
+        label: "iTunes Page"
+        name: "iTunes-page"
+        fields:
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Subtitle, name: subtitle, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: "content/pages/about.md"
+        label: "About Page"
+        name: "about-page"
+        fields:
+          - { label: Featured Image, name: featuredImage, widget: image }
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: "content/pages/footer.md"
+        label: "Footer Page"
+        name: "footer-page"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+
+      - file: "content/pages/common.md"
+        label: "Common Page"
+        name: "common-page"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Body, name: body, widget: markdown }
+          - { label: Location, name: location, widget: string }
+          - { label: Phone, name: phone, widget: string }
+          - { label: Email, name: email, widget: string }
+          - { label: Fax, name: fax, widget: string }
+          - { label: Facebook URL, name: facebookURL, widget: string }
+          - { label: Twitter URL, name: twitterURL, widget: string }
+          - { label: Instagram URL, name: instagramURL, widget: string }
