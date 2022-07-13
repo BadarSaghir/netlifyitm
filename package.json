@@ -2,9 +2,8 @@
   "name": "react-multikart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://BadarSaghir.github.io/netlifyitm", 
-  
-    "basename": "/",
+  "homepage": "https://BadarSaghir.github.io/netlifyitm",
+  "basename": "/",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",
@@ -107,6 +106,8 @@
     "start": "node scripts/start.js",
     "build": "node parser/parse-content.js && node scripts/build.js && node parser/copy-redirects.js",
     "test": "node scripts/test.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "parse-content": "node ./parser/parse-content.js"
   },
   "eslintConfig": {
@@ -166,6 +167,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^9.0.0",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.0",
     "sass-loader": "^7.3.1",
     "webpack": "^4.41.2"
