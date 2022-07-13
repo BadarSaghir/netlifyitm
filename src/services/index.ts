@@ -218,27 +218,37 @@ const getPrintfulSyncVariantID = (
   console.log("********************************************************************")
   console.log("********************************************************************")
   console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("***************************item=",item,"*****************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("***************************",item.variants,"*****************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
 
   let sku=null
   if (!colorName && item.variants[0].type === "color") {
     colorName = item.variants[0].color;
     console.log("Default color ID", colorName);
   }
-  if (!sizeName || item.skuVariants[0].size==null) {
+  if (!sizeName || item.skuVariants.length===1) {
     // sizeName = item.skuVariants[0].size;
-    sku = item.skuVariants.find(
-      (variant) => variant.color === colorName
-    ).sku;
+    sku = item.skuVariants[0].sku;
   }else{
     sku = item.skuVariants.find(
       (variant) => variant.size === sizeName && variant.color === colorName
-    // ).sku;
+    ).sku;
     //   sku = item.skuVariants.find(
     //   (variant) =>  variant.color === colorName
-    ).sku;
-
-
-  }
+    // ).sku;
+    }
+    // sku = item.skuVariants.find(
+    //   (variant) => variant.size === sizeName && variant.color === colorName
+    // ).sku;
   
   
 
