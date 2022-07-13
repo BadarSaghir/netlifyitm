@@ -70,17 +70,18 @@ class DetailsWithPrice extends Component {
 
   onBuyNowClick = () => {
     const { item, colorID } = this.props;
-    this.SKU = getActiveSKU(item, this.state.selectedSize, colorID);
+    this.SKU = getActiveSKU(this.props.hitem, this.state.selectedSize, colorID);
     this.props.BuynowClicked(item, this.state.quantity, this.SKU);
     this.setState({ buyNowClicked: true });
   };
 
   onAddTocartClick = () => {
-    const { item, colorID } = this.props;
-    this.SKU = getActiveSKU(item, this.state.selectedSize, colorID);
+    // const { item, colorID } = this.props;
+    console.log("item", this.SKU);
+    this.SKU = getActiveSKU(this.props.item, this.state.selectedSize, this.props.colorID);
     console.log("ADD CART Sku", this.SKU);
     console.log("Size",this.state.selectedSize)
-    this.props.addToCartClicked(item, this.state.quantity, this.SKU);
+    this.props.addToCartClicked(this.props.item, this.state.quantity, this.SKU);
   };
 
   getDescription = (item) => {

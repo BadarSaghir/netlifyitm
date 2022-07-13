@@ -48,6 +48,7 @@ class ProductListing extends Component {
   };
 
   addToCartClicked = (item) => {
+    // TODO: getA null is causing error
     const SKU = getActiveSKU(item, null, null);
     console.log("ADD CART Sku", SKU);
     this.props.addToCart(item, 1, SKU);
@@ -99,7 +100,7 @@ class ProductListing extends Component {
                         onAddToCompareClicked={() => addToCompare(product)}
                         onAddToWishlistClicked={() => addToWishlist(product)}
                         onAddToCartClicked={() =>
-                          this.addToCartClicked(product)
+                          this.addToCartClicked(product) // TODO: for some reason product is not getting passed
                         }
                         key={uuid()}
                       />

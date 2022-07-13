@@ -208,17 +208,39 @@ const getPrintfulSyncVariantID = (
   sizeName: string,
   colorName: string
 ) => {
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+
+  
+  console.log(`size name=${sizeName},colorName${colorName}`)
+
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+  console.log("********************************************************************")
+
+  let sku=null
   if (!colorName && item.variants[0].type === "color") {
     colorName = item.variants[0].color;
     console.log("Default color ID", colorName);
   }
-  if (!sizeName) {
-    sizeName = item.skuVariants[0].size;
+  if (!sizeName || item.skuVariants[0].size==null) {
+    // sizeName = item.skuVariants[0].size;
+    sku = item.skuVariants.find(
+      (variant) => variant.color === colorName
+    ).sku;
+  }else{
+    sku = item.skuVariants.find(
+      (variant) => variant.size === sizeName && variant.color === colorName
+    // ).sku;
+    //   sku = item.skuVariants.find(
+    //   (variant) =>  variant.color === colorName
+    ).sku;
+
+
   }
-  console.log("sizeName", sizeName);
-  const sku = item.skuVariants.find(
-    (variant) => variant.size === sizeName && variant.color === colorName
-  ).sku;
+  
+  
 
   return item.printfulVariants.find((vari) => vari.sku === sku).id;
 };
