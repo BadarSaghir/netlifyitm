@@ -2,8 +2,9 @@
   "name": "react-multikart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://printifyshop.firebaseapp.com/",
-  "basename": "/",
+  "homepage": "https://BadarSaghir.github.io/netlifyitm", 
+  
+    "basename": "/",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",

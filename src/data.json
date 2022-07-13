@@ -24,24 +24,24 @@
       "excerpt": "",
       "featuredImage": "/images/uploads/screen-shot-2020-08-16-at-4.21.18-pm.jpg",
       "title": "Inside The Mafia",
-      "subtitle": "Wriiten By: ",
+      "subtitle": "Choose your ",
       "name": "books",
       "body": "Inside The Mafia Book Collection"
     },
     {
-      "content": "",
+      "content": "Inside The Mafia",
       "isEmpty": false,
       "excerpt": "",
       "title": "Common",
       "location": "Insidethemafia.Net, Demo Store USA 345-659",
-      "phone": "+1 77 241 1953",
+      "phone": "+1 800 888 0000",
       "email": "insidethemafia.com",
       "fax": "+1 77 241 1953",
-      "facebookURL": "https://www.facebook.com/PariganakaLipi",
-      "twitterURL": "https://www.facebook.com/PariganakaLipi",
-      "instagramURL": "https://www.facebook.com/PariganakaLipi",
+      "facebookURL": "https://www.facebook.com/insidethemafia",
+      "twitterURL": "https://twitter.com/inside_mafia",
+      "instagramURL": "https://www.instagram.com/insidethemafia/",
       "name": "common",
-      "body": ""
+      "body": "Inside The Mafia"
     },
     {
       "content": "\n# Example contact form\n\nThis form is setup to use Netlify's form handling:\n\n* the form action is set to the current absolute url: `action: '/contact/'`\n* a name attribute is sent with the form's data `'form-name': 'Contact'`\n* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`\n\nFind out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).\n",
@@ -57,12 +57,16 @@
       "body": "\n# Example contact form\n\nThis form is setup to use Netlify's form handling:\n\n* the form action is set to the current absolute url: `action: '/contact/'`\n* a name attribute is sent with the form's data `'form-name': 'Contact'`\n* netlify data attributes are added to the form `data-netlify data-netlify-honeypot`\n\nFind out more in the [Netlify Docs](https://www.netlify.com/docs/form-handling/).\n"
     },
     {
-      "content": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n",
+      "content": "Inside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem",
       "isEmpty": false,
       "excerpt": "",
       "title": "Footer",
+      "location": "Insidethemafia.net Demo store USA 345-659",
+      "phone": "1 800 888 8000",
+      "email": "insidethemafia@gmail.com",
+      "fax": "+1 77 241 1953",
       "name": "footer",
-      "body": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n"
+      "body": "Inside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem"
     },
     {
       "content": "\nInside............................ footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footerlorem footer lorem footerlorem footerlorem footerlorem footerlorem footerlorem footer\n",
@@ -88,26 +92,36 @@
       "slidersub2": "Sub Text Two Inside",
       "subBanner1": "/images/uploads/slider_1.jpg",
       "subBanner2": "/images/uploads/slider_2.jpg",
-      "subBannerTitle1": "Sub1 Mens",
-      "subBannersub1": "Sub1 ",
-      "subBannerTitle2": "Sub2  ",
-      "subBannersub2": "Sub Sub Text Two Inside",
+      "subBannerTitle1": "                                                                  MENS     ",
+      "subBannersub1": "           inside",
+      "subBannerTitle2": "WOMENS ",
+      "subBannersub2": "                  inside",
       "paralaxImage": "/images/uploads/paralax.jpg",
-      "paralaxTitle": "Inside The Mafia",
-      "paralaxsub1": "International fashion at it's best ",
-      "paralaxsub2": "International Fashion",
+      "paralaxTitle": "                                             INSIDE THE MAFIA",
+      "paralaxsub1": "                                             ",
+      "paralaxsub2": "                                       ",
       "name": "home",
       "body": ""
     },
     {
-      "content": "Test Shop page content Inside\n\n**Inside**",
+      "content": "Inside The Mafia Itunes Collection test",
+      "isEmpty": false,
+      "excerpt": "",
+      "featuredImage": "/images/uploads/screen-shot-2020-08-16-at-4.21.18-pm.jpg",
+      "title": "Inside The Mafia test",
+      "subtitle": "Choose your ",
+      "name": "itunes",
+      "body": "Inside The Mafia Itunes Collection test"
+    },
+    {
+      "content": "The world will never be the same and never will you. Step into the new decade with a brand new look. Fill the air with confidence and sex appeal. Make women admire you and men yearn for your attention. Be the first to experience the rush, nothing feels better than looking sexy.",
       "isEmpty": false,
       "excerpt": "",
       "featuredImage": "/images/uploads/21.jpg",
       "title": "INTERNATIONAL FASHIONS",
       "subtitle": "Shop page title",
       "name": "shop",
-      "body": "Test Shop page content Inside\n\n**Inside**"
+      "body": "The world will never be the same and never will you. Step into the new decade with a brand new look. Fill the air with confidence and sex appeal. Make women admire you and men yearn for your attention. Be the first to experience the rush, nothing feels better than looking sexy."
     }
   ],
   "postCategories": [
