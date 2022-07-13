@@ -21,6 +21,7 @@ class checkOut extends Component {
   constructor(props) {
     super(props);
 
+
     this.state = {
       payment: "paypal",
       first_name: "",
@@ -30,7 +31,7 @@ class checkOut extends Component {
       country: "US",
       addressL1: "",
       addressL2: "",
-      city: "",
+      city: "New York",
       state: "AK",
       pincode: "99501",
       create_account: "",
@@ -150,7 +151,7 @@ class checkOut extends Component {
   // };
 
   render() {
-    let canRenderPayapalBtn = true;
+    let canRenderPayapalBtn = false;
 
     const {
       cartItems,
@@ -244,8 +245,11 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="first_name"
+                            minLength={3}
+                            pattern="[A-Za-z]*" 
                             value={this.state.first_name}
                             onChange={this.setStateFromInput}
+                            required
                           />
                           {this.validator.message(
                             "first_name",
@@ -258,8 +262,11 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="last_name"
+                            minLength={3}
+                            pattern="[A-Za-z]*"
                             value={this.state.last_name}
                             onChange={this.setStateFromInput}
+                            required
                           />
                           {this.validator.message(
                             "last_name",
@@ -272,8 +279,10 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="phone"
+                            minLength={3}
                             value={this.state.phone}
                             onChange={this.setStateFromInput}
+                            required
                           />
                           {this.validator.message(
                             "phone",
@@ -284,10 +293,11 @@ class checkOut extends Component {
                         <div className="form-group col-md-6 col-sm-6 col-xs-12">
                           <div className="field-label">Email Address</div>
                           <input
-                            type="text"
+                            type="email"
                             name="email"
                             value={this.state.email}
                             onChange={this.setStateFromInput}
+                            required
                           />
                           {this.validator.message(
                             "email",
@@ -317,9 +327,11 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="addressL1"
+                            minLength={3}
                             value={this.state.addressL1}
                             onChange={this.setStateFromInput}
                             placeholder="Address Line 1"
+                            required
                           />
                           {this.validator.message(
                             "address L1",
@@ -333,9 +345,11 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="addressL2"
+                            minLength={3}
                             value={this.state.addressL2}
                             onChange={this.setStateFromInput}
                             placeholder="Address Line 2"
+                            required
                           />
                         </div>
 
@@ -344,8 +358,11 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="city"
+                            minLength={3}
+                            pattern="[A-Za-z]*"
                             value={this.state.city}
                             onChange={this.setStateFromInput}
+                            required
                           />
                           {this.validator.message(
                             "city",
@@ -359,7 +376,11 @@ class checkOut extends Component {
                           <select
                             name="state"
                             value={this.state.state}
+                            minLength={3}
+
                             onChange={this.setStateFromInput}
+                            pattern="[A-Za-z]*"
+                            required
                           >
                             {states.map((state) => (
                               <option value={state.code} key={state.code}>
@@ -394,6 +415,7 @@ class checkOut extends Component {
                           <input
                             type="text"
                             name="pincode"
+                            minLength={2}
                             value={this.state.pincode}
                             onChange={this.setStateFromInput}
                           />

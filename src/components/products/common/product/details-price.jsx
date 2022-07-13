@@ -4,6 +4,7 @@ import Slider from "react-slick";
 import Modal from "react-responsive-modal";
 import { getActiveSKU } from "../../../../services";
 
+
 import "./detail-price.scss";
 
 class DetailsWithPrice extends Component {
@@ -70,7 +71,7 @@ class DetailsWithPrice extends Component {
 
   onBuyNowClick = () => {
     const { item, colorID } = this.props;
-    this.SKU = getActiveSKU(this.props.hitem, this.state.selectedSize, colorID);
+    this.SKU = getActiveSKU(this.props.item, this.state.selectedSize, colorID);
     this.props.BuynowClicked(item, this.state.quantity, this.SKU);
     this.setState({ buyNowClicked: true });
   };
@@ -221,6 +222,7 @@ class DetailsWithPrice extends Component {
                   value={this.state.quantity}
                   onChange={this.changeQty}
                   className="form-control input-number"
+                  required
                 />
                 <span className="input-group-prepend">
                   <button
